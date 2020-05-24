@@ -10,6 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/zhuqingsong59/vue-simpleCalendar.git"
   },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0"
+  },
   "keywords": [
     "vue",
     "calendar"
@@ -19,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/zhuqingsong59/vue-simpleCalendar/issues"
   },
-  "homepage": "https://github.com/zhuqingsong59/vue-simpleCalendar#readme"
+  "homepage": "https://github.com/zhuqingsong59/vue-simpleCalendar#readme",
+  "dependencies": {
+    "dayjs": "^1.8.27"
+  }
 }
