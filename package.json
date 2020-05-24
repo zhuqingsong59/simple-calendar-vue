@@ -1,0 +1,23 @@
+{
+  "name": "vue-simplecalendar",
+  "version": "1.0.0",
+  "description": "vue-simpleCalendar",
+  "main": "dist/dist.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuqingsong59/vue-simpleCalendar.git"
+  },
+  "keywords": [
+    "vue",
+    "calendar"
+  ],
+  "author": "zqs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuqingsong59/vue-simpleCalendar/issues"
+  },
+  "homepage": "https://github.com/zhuqingsong59/vue-simpleCalendar#readme"
+}
