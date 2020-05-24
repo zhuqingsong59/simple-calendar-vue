@@ -1,9 +1,8 @@
 import simpleCalendar from './simpleCalendar'
 
-const install = function(Vue) {
-  Vue.component('simpleCalendar', simpleCalendar);
+let smallCalendar = {}
+smallCalendar.install = function (Vue, options) {
+  Vue.component('simpleCalendar', simpleCalendar)
 }
-
-export default {
-  install
-}
+console.log(smallCalendar)
+export default smallCalendar
