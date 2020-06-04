@@ -199,6 +199,7 @@ export default {
       .switchButton{
         top: 12px;
         outline: 0;
+        background: #ffffff;
         color: #4a84ff;
         min-width: 72px;
         cursor: pointer;
