@@ -1,6 +1,6 @@
 {
   "name": "simple-calendar-vue",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "simple-calendar-vue",
   "main": "dist/dist.js",
   "scripts": {
