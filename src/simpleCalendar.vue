@@ -154,9 +154,12 @@ export default {
         }
         selectItem.isSelected = !selectItem.isSelected
         this.$set(this.daysList, selectIndex, selectItem)
-        this.$emit('getSelected', this.daysList.filter((item) => {
+        let selectedList = this.daysList.filter((item) => {
           return item.isSelected
-        }))
+        }).map((item) => {
+          return item.date
+        })
+        this.$emit('getSelected', selectedList)
       }
     },
     next () {

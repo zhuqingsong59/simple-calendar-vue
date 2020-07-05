@@ -1,1 +1,1 @@
-# vue-simpleCalendar
+# simple-calendar-vue
