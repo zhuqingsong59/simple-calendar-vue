@@ -60,6 +60,7 @@ Vue.use(simpleCalendar)
     <td>Select multiple dates</td>
   </tr>
 </table>
+
 ## Events
 <table>
   <tr>
